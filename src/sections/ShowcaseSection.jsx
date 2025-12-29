@@ -47,39 +47,71 @@ const AppShowcase = () => {
     <div id="work" ref={sectionRef} className="app-showcase">
       <div className="w-full">
         <div className="showcaselayout">
-          <div ref={rydeRef} className="first-project-wrapper">
+          {/* Multi vendor eccomerce Card with Live Preview Link */}
+          <a
+            href="https://gocart-delta.vercel.app/" // Replace with your live URL
+            target="_blank"
+            rel="noopener noreferrer"
+            className="first-project-wrapper"
+            ref={rydeRef}
+          >
             <div className="image-wrapper">
-              <img src="/images/project1.png" alt="Ryde App Interface" />
+              <img src="/images/project1.png" alt="Multi Vendor E-Commerce Interface" />
             </div>
             <div className="text-content">
               <h2>
-                On-Demand Rides Made Simple with a Powerful, User-Friendly App
-                called Ryde
+                Multi-Vendor eCommerce System for Scalable Online Marketplaces
               </h2>
               <p className="text-white-50 md:text-xl">
-                An app built with React Native, Expo, & TailwindCSS for a fast,
-                user-friendly experience.
+                A robust platform for vendors to sell products, with admin dashboards,vendor dashboards ,  payment gateways, and real-time analytics.
               </p>
             </div>
-          </div>
+          </a>
 
           <div className="project-list-wrapper overflow-hidden">
-            <div className="project" ref={libraryRef}>
+            {/* Green Cart with Live Preview Link */}
+            <a
+              href="https://greencart-client-2wsm.onrender.com" // Replace with your live URL
+              target="_blank"
+              rel="noopener noreferrer"
+              className="project"
+              ref={libraryRef}
+            >
               <div className="image-wrapper bg-[#FFEFDB]">
                 <img
                   src="/images/project2.png"
-                  alt="Library Management Platform"
+                  alt="Green Cart Platform"
                 />
               </div>
-              <h2>The Library Management Platform</h2>
-            </div>
+              <h2>GreenCart – Grocery Website</h2>
+            </a>
 
-            <div className="project" ref={ycDirectoryRef}>
+            {/* Jobify Card with Live Preview Link */}
+            <a
+              href="https://jobify-psi-five.vercel.app/" // Replace with your live URL
+              target="_blank"
+              rel="noopener noreferrer"
+              className="project"
+              ref={ycDirectoryRef}
+            >
+              <div className="image-wrapper bg-[#FFE7EB]">
+                <img src="/images/project3.png" alt="YC Directory App" />
+              </div>
+              <h2>Jobify: Your Job Search Made Easy</h2>
+            </a>
+
+            {/* Duplicate YC Directory Card with Live Preview Link */}
+            <a
+              href="https://yc-directory-live.example.com" // Replace with your live URL
+              target="_blank"
+              rel="noopener noreferrer"
+              className="project"
+            >
               <div className="image-wrapper bg-[#FFE7EB]">
                 <img src="/images/project3.png" alt="YC Directory App" />
               </div>
               <h2>YC Directory - A Startup Showcase App</h2>
-            </div>
+            </a>
           </div>
         </div>
       </div>
