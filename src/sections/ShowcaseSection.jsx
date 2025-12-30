@@ -100,17 +100,17 @@ const AppShowcase = () => {
               <h2>Jobify: Your Job Search Made Easy</h2>
             </a>
 
-            {/* Duplicate YC Directory Card with Live Preview Link */}
+            {/* Life Saver Card with Live Preview Link */}
             <a
-              href="https://yc-directory-live.example.com" // Replace with your live URL
+              href="https://lifesaver-frontend.onrender.com" // Replace with your live URL
               target="_blank"
               rel="noopener noreferrer"
               className="project"
             >
               <div className="image-wrapper bg-[#FFE7EB]">
-                <img src="/images/project3.png" alt="YC Directory App" />
+                <img src="/images/project4.png" alt="YC Directory App" />
               </div>
-              <h2>YC Directory - A Startup Showcase App</h2>
+              <h2>LifeSaver: One-Tap Emergency Support</h2>
             </a>
           </div>
         </div>
